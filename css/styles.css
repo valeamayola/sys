@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.title-animated {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    color: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+#animated-title {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 900;
+    font-style: bold;
+    background-image: linear-gradient(to right, #ffffff, #939393);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 0 78px 0 0;
+}
+
+#changing-word {
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    font-weight: 900;
+    font-style: bold;
+    position: relative;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    white-space: nowrap;
+    margin: 0;
+    border-right: 0.08em solid white;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #000;
+    }
+}
+
+.imagen-header {
+    filter: drop-shadow(16px 16px 10px rgb(1, 17, 67));
+}
+
+.swiper {
+    width: 80%;
+    height: 80%;
+}

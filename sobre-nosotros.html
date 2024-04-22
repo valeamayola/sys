@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Somos una empresa dedicada a brindar soluciones integrales en el ámbito de diseño y desarrollo web, aplicaciones móviles, hosting, seguridad digital e infraestructura IT.">
+    <meta property="og:image" content="public/logopng.png">
+    <meta property="og:title" content="Security and System" />
+    <title>Security and System</title>
+    <link rel="shortcut icon" href="public/logopng.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="navbar bg-blue-950 py-2 md:py-5 px-2 md:px-20">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabIndex={0} role="button" class="btn btn-ghost lg:hidden hover:bg-transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabIndex={0}
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-900 rounded-box w-52">
+                    <li><a href="/" class="text-white">Inicio</a></li>
+                    <li><a href="/servicios" class="text-white">Servicios</a></li>
+                    <li><a href="/sobre-nosotros" class="text-white">Sobre nosotros</a></li>
+                    <li><a href="/nuestros-trabajos" class="text-white">Nuestros trabajos</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl hover:bg-transparent">
+                <img class="w-44 md:w-52" src="public/logopnghorizontal.png" alt="Logo" />
+            </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/" class="font-medium text-gray-300 text-base">Inicio</a></li>
+                <li><a href="/servicios" class="font-medium text-gray-300 text-base">Servicios</a></li>
+                <li><a href="/sobre-nosotros" class="font-medium text-gray-300 text-base">Sobre nosotros</a></li>
+                <li><a href="/nuestros-trabajos" class="font-medium text-gray-300 text-base">Nuestros trabajos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+            <a class="fixed z-10 btn border-white border-2 bg-blue-950 shadow-md text-white text-base rounded-full hover:bg-gray-900 hover:text-blue-700 hover:border-gray-900"
+                href="https://api.whatsapp.com/send/?phone=%2B541156260023&text&type=phone_number&app_absent=0"
+                target="_blank">Contactános</a>
+        </div>
+    </div>
+
+    <div class="h-72 w-full bg-gradient-to-b from-blue-950 via-slate-950 to-slate-950 flex flex-col items-center align-center justify-center text-center px-10 md:px-20 pt-10 md:pt-20 pb-10">
+        <h1 class="font-bold text-5xl text-white text-center">Sobre nosotros</h1>
+    </div>
+
+    <div class="flex bg-gradient-to-b from-slate-950 via-blue-950 to-blue-950 flex-col md:flex-row items-center justify-between py-5 md:py-10 px-5 md:px-32">
+        <div class="flex flex-col items-start w-80 md:w-[200rem] mx-2 md:mx-5">
+            <p class="text-white text-2xl font-medium text-center md:text-start">Somos una empresa dedicada a brindar soluciones integrales <br></br>
+                en el ámbito de diseño y desarrollo web, aplicaciones móviles, hosting, seguridad digital e infraestructura IT. <br></br>
+                Nuestra misión es ayudar a nuestros clientes a alcanzar el éxito en el mundo digital.</p>
+            <p class="text-slate-300 text-2xl font-medium mt-5 text-center md:text-start">En Security & System, nos enorgullece contar con un equipo de profesionales altamente capacitados y apasionados <br></br>
+                por la tecnología. Trabajamos estrechamente con nuestros clientes para comprender sus necesidades y ofrecer soluciones <br></br>
+                a medida que impulsen sus objetivos comerciales.</p>
+        </div>
+        <div class="card mt-5 md:mt-0 mx-5 bg-transparent border-2 border-blue-800/50 shadow-blue-800/50 shadow-2xl">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-white">Nuestro equipo</h2>
+                <div class="avatar-group -space-x-6 rtl:space-x-reverse">
+                    <div class="avatar border-blue-950">
+                        <div class="w-12">
+                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                    </div>
+                    <div class="avatar border-blue-950">
+                        <div class="w-12">
+                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                    </div>
+                    <div class="avatar border-blue-950">
+                        <div class="w-12">
+                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                    </div>
+                    <div class="avatar placeholder border-blue-950">
+                        <div class="w-12 bg-slate-800 text-neutral-content">
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-xl text-white mt-2">Integrado por expertos en diversas áreas, cada uno aporta sólida experiencia y conocimiento especializado para potenciar el éxito de nuestros clientes.</p>
+            </div>
+        </div>
+        <div class="card mt-5 md:mt-0 mx-5 bg-transparent border-2 border-blue-800/50 shadow-blue-800/50 shadow-2xl">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-white">Clientes satisfechos</h2>
+                <p class="text-xl text-white mt-2">Trabajamos con una amplia gama de clientes, desde pequeñas empresas hasta grandes corporaciones de diversos sectores. En Security and System los ayudamosa a alcanzar sus objetivos en el mundo digital.</p>
+                <h1 class="text-7xl text-slate-50/50 font-extrabold mt-2">48</h1>
+                <h1 class="text-xl text-white mt-2">Proyectos entregados</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-10 md:py-20 px-10 md:px-44 bg-slate-900 text-base-content">
+        <aside>
+            <img class="w-44 md:w-60" src="public/logopnghorizontal.png" alt="Logo" />
+        </aside>
+        <nav>
+            <h6 class="footer-title text-xl text-white">Servicios</h6>
+            <a class="link link-hover text-lg text-white">Diseño web</a>
+            <a class="link link-hover text-lg text-white">Aplicaciones móviles</a>
+            <a class="link link-hover text-lg text-white">Hosting</a>
+            <a class="link link-hover text-lg text-white">Seguridad digital</a>
+            <a class="link link-hover text-lg text-white">Infraestructura IT</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-xl text-white">Navegación</h6>
+            <a class="link link-hover text-lg text-white">Sobre nosotros</a>
+            <a class="link link-hover text-lg text-white">Servicios</a>
+            <a class="link link-hover text-lg text-white">Nuestros trabajos</a>
+            <a class="link link-hover text-lg text-white">Contacto</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-xl text-white">Información</h6>
+            <p class="text-lg text-white mt-2 flex">
+                <i class="fa-solid fa-location-dot mr-2 text-lg"></i>Juan José paso 1353, Morón
+            </p>
+            <p class="text-lg text-white mt-2 flex">
+                <i class="fa-solid fa-phone mr-2 text-lg"></i>11 7726-4032
+            </p>
+            <p class="text-lg text-white mt-2 flex">
+                <i class="fa-solid fa-envelope mr-2 text-lg"></i>contact@securityandsystem.com
+            </p>
+        </nav>
+    </footer>
+</body>
+
+</html>
