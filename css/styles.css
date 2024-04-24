@@ -104,13 +104,13 @@ body {
         top: 0;
     }
 
-    nav {
+    .button-carousel {
         display: flex;
         justify-content: center;
         margin: 20px 0 0;
     }
 
-    nav button {
+    .button-carousel button {
         flex: 0 0 auto;
         margin: 0 5px;
         cursor: pointer;
